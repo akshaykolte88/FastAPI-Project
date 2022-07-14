@@ -2,7 +2,7 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 from .database import Base
 from sqlalchemy.orm import relationship
 
-# an example mapping using the base
+# Creating models
 class Blog(Base):
     __tablename__ = 'blogs'
 
